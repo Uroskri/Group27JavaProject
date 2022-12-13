@@ -4,6 +4,10 @@ public class Practice01 {
 
         System.out.println("Hello");
 
+        System.out.println("Silver spoon");
+
+
+
 
     }
 }
