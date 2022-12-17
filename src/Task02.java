@@ -10,9 +10,15 @@ public class Task02 {
         double emin = 16.7;
         double ramazan = 8.9;
 
-        double veli= ali+emin+ramazan;
+        boolean isVeliParent= true;
 
-        System.out.println("latest calc= "+veli);
+        if(isVeliParent== true) {
+
+
+            System.out.println("Veli= " +(ali+emin+ramazan));
+        }else{
+            System.out.println("Veli must be parent");
+        }
 
     }
 }
